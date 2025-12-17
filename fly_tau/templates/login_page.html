@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    </head>
+<body>
+<div class="login_type">
+
+    <div class="tabs">
+        <a href="/login_page?role=customer">Customer Login</a> |
+        <a href="/login_page?role=manager">Manager Login</a>
+    </div>
+    <br>
+
+    {% if role == 'customer' %}
+    <div id="customer-form">
+        <h3>Customer Login</h3>
+        <form action="/login_page" method="post">
+            <input type="hidden" name="which_form_is_this" value="customer">
+
+            <label>Email:</label>
+            <input type="email" name="email_user" required placeholder="enter your email here!">
+            <label>Password:</label>
+            <input type="password" name="password_user" required placeholder="enter your password here!">
+            <br><br>
+            <input type="submit" value="Login">
+        </form>
+        {% if error_message %}
+        <p style="color: red; font-weight: bold;">{{ error_message }}</p>{% endif %}
+        <a href="/"> return to homepage </a>
+    </div>
+    {% endif %}
+
+    {% if role == 'manager' %}
+    <div id="manager-form">
+        <h3>Manager Access</h3>
+        <form action="/login_page" method="post">
+            <input type="hidden" name="which_form_is_this" value="manager">
+
+            <label>Manager ID:</label>
+            <input type="text" name="manager_id" required placeholder="enter your ID here!">
+            <label>Password:</label>
+            <input type="password" name="password_manager" required placeholder="enter your password here!">
+            <br><br>
+            <input type="submit" value="Login">
+        </form>
+        <br>
+        <a href="/"> return to homepage </a>
+        {% if error_message %}
+        <p style="color: red; font-weight: bold;">{{ error_message }}</p> {% endif %}
+    </div>
+    {% endif %}
+
+
+</div>
+</body>
+</html>

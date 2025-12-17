@@ -1,0 +1,2786 @@
+{
+  "diagramType": 1,
+  "data": {
+    "nodes": [
+      {
+        "id": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Entity",
+        "position": {
+          "x": 3482.9225351243663,
+          "y": 76.07597495322776
+        },
+        "data": {
+          "label": "עובדי חברה",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "04ea4fc6-8474-4b84-858f-64c734c68a3a",
+        "parentId": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Attribute",
+        "position": {
+          "x": 21.24621202458752,
+          "y": -98.75378797541254
+        },
+        "data": {
+          "label": "ת\"ז",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "d20d8a6c-23d4-4eeb-9019-a32279854ede",
+        "parentId": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Attribute",
+        "position": {
+          "x": -74,
+          "y": -76
+        },
+        "data": {
+          "label": "שם מלא",
+          "types": {
+            "Composite": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "30888f17-6736-41b6-9156-0946aaf52ab2",
+        "parentId": "d20d8a6c-23d4-4eeb-9019-a32279854ede",
+        "type": "Attribute",
+        "position": {
+          "x": -2,
+          "y": -78
+        },
+        "data": {
+          "label": "שם פרטי",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "b47fabfa-1df3-436d-bf8a-d6e5fa32f70f",
+        "parentId": "d20d8a6c-23d4-4eeb-9019-a32279854ede",
+        "type": "Attribute",
+        "position": {
+          "x": -100.75378797541248,
+          "y": -73.24621202458749
+        },
+        "data": {
+          "label": "שם משפחה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "d86e76e2-817b-4bb3-90dc-038a80f78c64",
+        "parentId": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Attribute",
+        "position": {
+          "x": -185.24621202458752,
+          "y": -38.75378797541248
+        },
+        "data": {
+          "label": "מס' טלפון",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "02774b10-65bc-4f6d-9e67-2836b9478c81",
+        "parentId": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Attribute",
+        "position": {
+          "x": 128,
+          "y": -127.99999999999997
+        },
+        "data": {
+          "label": "כתובת מגורים",
+          "types": {
+            "Composite": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "d33b288d-cec3-4677-ad5a-2ff26057ea58",
+        "parentId": "02774b10-65bc-4f6d-9e67-2836b9478c81",
+        "type": "Attribute",
+        "position": {
+          "x": 136,
+          "y": -11
+        },
+        "data": {
+          "label": "עיר",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "a7e44489-50ba-402d-a65e-d1bf20744e32",
+        "parentId": "02774b10-65bc-4f6d-9e67-2836b9478c81",
+        "type": "Attribute",
+        "position": {
+          "x": 91.24621202458752,
+          "y": -56.24621202458749
+        },
+        "data": {
+          "label": "רחוב",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "3e13917b-5168-431b-89d0-674eb627ecc1",
+        "parentId": "02774b10-65bc-4f6d-9e67-2836b9478c81",
+        "type": "Attribute",
+        "position": {
+          "x": 3,
+          "y": -85.00000000000001
+        },
+        "data": {
+          "label": "מס' בית",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "60f6801b-bc77-4309-8de2-382e442a7d8f",
+        "parentId": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Attribute",
+        "position": {
+          "x": 132.75378797541248,
+          "y": -57.246212024587464
+        },
+        "data": {
+          "label": "תאריך תחילת עבודה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "type": "Entity",
+        "position": {
+          "x": 1753.8961127839652,
+          "y": 70.17708692757701
+        },
+        "data": {
+          "label": "לקוחות",
+          "type": "Supertype",
+          "isConnectable": false,
+          "isSelected": true,
+          "totalSpecialization": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": true,
+        "dragging": false
+      },
+      {
+        "id": "d6643346-638c-48de-a598-ded66292fc38",
+        "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "type": "Attribute",
+        "position": {
+          "x": 100.80930659015735,
+          "y": -53.64087564598472
+        },
+        "data": {
+          "label": "כתובת EMAIL",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "736b4be0-b716-4468-a762-42172ff95362",
+        "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "type": "Attribute",
+        "position": {
+          "x": 2.1662853752955016,
+          "y": -109.3061593265165
+        },
+        "data": {
+          "label": "שם מלא EN",
+          "types": {
+            "Composite": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "ca72811c-aa61-499a-9e37-1c6795b90e63",
+        "parentId": "736b4be0-b716-4468-a762-42172ff95362",
+        "type": "Attribute",
+        "position": {
+          "x": -41.06879541645708,
+          "y": -73.98886876716507
+        },
+        "data": {
+          "label": "שם פרטי EN",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "cb0aed71-e2f5-4015-a2c7-9c36085baa5a",
+        "parentId": "736b4be0-b716-4468-a762-42172ff95362",
+        "type": "Attribute",
+        "position": {
+          "x": 64.18854784096561,
+          "y": -65.86482520490237
+        },
+        "data": {
+          "label": "שם משפחה EN",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "cb66868b-3c4b-4bf4-9e64-45d651d5c029",
+        "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "type": "Attribute",
+        "position": {
+          "x": -119.01569283952836,
+          "y": -62.62773639370231
+        },
+        "data": {
+          "label": "טלפון",
+          "types": {
+            "Derived": false,
+            "Multivalued": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "type": "Entity",
+        "position": {
+          "x": 2292.9025395410295,
+          "y": 81.78699352686695
+        },
+        "data": {
+          "label": "מושב",
+          "type": "Weak",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "a7c047ee-0820-4522-9dd1-5a5614ca3cef",
+        "parentId": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "type": "Attribute",
+        "position": {
+          "x": -116.78051548057556,
+          "y": 6.682075759167731
+        },
+        "data": {
+          "label": "שורה",
+          "types": {
+            "Partially Unique": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "6ee83491-e25e-4172-abe3-23e9c67eea1a",
+        "parentId": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "type": "Attribute",
+        "position": {
+          "x": -81.12559817674355,
+          "y": 62.29558318221214
+        },
+        "data": {
+          "label": "טור",
+          "types": {
+            "Partially Unique": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "f7ab3e90-fe26-4f57-ac0f-e8f85cb74313",
+        "parentId": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "type": "Attribute",
+        "position": {
+          "x": -230.30229927779283,
+          "y": 9.537401312288466
+        },
+        "data": {
+          "label": " מחלקה",
+          "types": {
+            "Optional": false,
+            "Composite": false,
+            "Derived": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "type": "Entity",
+        "position": {
+          "x": 2595.9465347195073,
+          "y": -2.7405069958652604
+        },
+        "data": {
+          "label": "מטוס",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "8d078d0c-edf2-4c77-89e0-ea797d381f61",
+        "parentId": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "type": "Attribute",
+        "position": {
+          "x": 125.76768784399337,
+          "y": -74.51086355297127
+        },
+        "data": {
+          "label": "יצרנית",
+          "types": {
+            "Composite": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "db6a9c25-6a5e-433b-8473-a897bcdd5032",
+        "parentId": "8d078d0c-edf2-4c77-89e0-ea797d381f61",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "בואינג",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false
+      },
+      {
+        "id": "698caf67-11c1-4830-bcd3-b9adc69fc014",
+        "parentId": "8d078d0c-edf2-4c77-89e0-ea797d381f61",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "איירבוס",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false
+      },
+      {
+        "id": "2f6a1166-47d9-45a5-a7f6-36f31cc54898",
+        "parentId": "8d078d0c-edf2-4c77-89e0-ea797d381f61",
+        "type": "Attribute",
+        "position": {
+          "x": 127.86685233527157,
+          "y": -40.652181929371636
+        },
+        "data": {
+          "label": "דאסו",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "55cc78c5-b4c1-4c54-950f-8d34e8fa3a50",
+        "parentId": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "type": "Attribute",
+        "position": {
+          "x": 24.703303478863745,
+          "y": -101.34879724957581
+        },
+        "data": {
+          "label": "גודל",
+          "types": {
+            "Composite": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "7e1b0859-99ad-40f5-9eea-d8ba54ef8032",
+        "parentId": "55cc78c5-b4c1-4c54-950f-8d34e8fa3a50",
+        "type": "Attribute",
+        "position": {
+          "x": -27.488517151265114,
+          "y": -77.32134643681346
+        },
+        "data": {
+          "label": "גדול",
+          "types": {
+            "Optional": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "a630b656-f457-4ef0-9dc9-2c4f808dabcc",
+        "parentId": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "type": "Attribute",
+        "position": {
+          "x": 181.22284111757176,
+          "y": -3.8111420558785767
+        },
+        "data": {
+          "label": "מספר מק\"ט",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "4c109e06-acaf-4355-9ea8-35c16a160b37",
+        "parentId": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "type": "Attribute",
+        "position": {
+          "x": -84.4087127536668,
+          "y": -72.41384941093405
+        },
+        "data": {
+          "label": "תאריך רכישה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Entity",
+        "position": {
+          "x": 2609.8391687931603,
+          "y": 567.4026650118743
+        },
+        "data": {
+          "label": "טיסה",
+          "type": "Associative",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bf37f4de-a806-4459-bd90-9aeda35c5638",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": -98.54766075594034,
+          "y": -105
+        },
+        "data": {
+          "label": "תאריך המראה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "c499e59f-732d-4971-a2ee-d08e78a1ab30",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": 141.01301298931412,
+          "y": -94.36923050073841
+        },
+        "data": {
+          "label": " נעול - שעת המראה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "ce3f1f31-36cb-4b94-97b2-cb14f0a321e9",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": 194.83198272160473,
+          "y": 49.53028655768935
+        },
+        "data": {
+          "label": "שדה מקור",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "1569e698-9266-4c02-a7b9-6bd95ef97fed",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": 161.16100499263314,
+          "y": 105.18642698719532
+        },
+        "data": {
+          "label": "שדה יעד",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "1095ba3b-90fe-42c6-8fc4-5a814d6e7da9",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": 52.648983452801986,
+          "y": -130.7230712021062
+        },
+        "data": {
+          "label": "משך - נעול",
+          "types": {
+            "Derived": false,
+            "Composite": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "054f8bef-dbb9-42fd-be7f-00c56d96a5af",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": 232.97890065939464,
+          "y": -140.49257600962926
+        },
+        "data": {
+          "label": "שעת נחיתה (משך הטיסה) - נעול",
+          "types": {
+            "Derived": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "1f9e56b6-17b8-4b17-b753-8f889bde0824",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": -164.30077068417722,
+          "y": -180.36434238525413
+        },
+        "data": {
+          "label": "תאריך נחיתה (משך הטיסה) - נעול",
+          "types": {
+            "Derived": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": -50.37025446814209,
+          "y": 102.94025973185694
+        },
+        "data": {
+          "label": "סטטוס - נעול",
+          "types": {
+            "Composite": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "15782780-c05a-4cf8-aef6-37aa4a186119",
+        "parentId": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "type": "Attribute",
+        "position": {
+          "x": 131.31484926947564,
+          "y": 59.091676351810065
+        },
+        "data": {
+          "label": "פעילה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "2c493c25-b8e2-48f4-990f-ba88065580dc",
+        "parentId": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "type": "Attribute",
+        "position": {
+          "x": 54.00933136123899,
+          "y": 106.05863498566168
+        },
+        "data": {
+          "label": "תפוסה מלאה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "26177f57-006f-44c6-bd2b-dc47dbee684f",
+        "parentId": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "type": "Attribute",
+        "position": {
+          "x": -139.56535559205417,
+          "y": 57.09248070557351
+        },
+        "data": {
+          "label": "התקיימה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "7dac6ded-78a6-45ab-8f69-2d83f6c4aa98",
+        "parentId": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "type": "Attribute",
+        "position": {
+          "x": -47.23013491048437,
+          "y": 98.28285229502899
+        },
+        "data": {
+          "label": "בוטלה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "6828e975-b7a8-467f-bb79-83c0037004e3",
+        "type": "Entity",
+        "position": {
+          "x": 2155.351158582613,
+          "y": 378.5657091952956
+        },
+        "data": {
+          "label": "הזמנת טיסה",
+          "type": "Associative",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "e0d4fbc9-4a6c-4c5a-a181-99d803f2e211",
+        "parentId": "6828e975-b7a8-467f-bb79-83c0037004e3",
+        "type": "Attribute",
+        "position": {
+          "x": -120.84778455736023,
+          "y": 40.61374296742707
+        },
+        "data": {
+          "label": "קוד הזמנה",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "8b4d687e-ab25-4fda-870f-347540edb2a5",
+        "parentId": "1095ba3b-90fe-42c6-8fc4-5a814d6e7da9",
+        "type": "Attribute",
+        "position": {
+          "x": -0.6805269743972531,
+          "y": -64.71378190275698
+        },
+        "data": {
+          "label": "ארוכה",
+          "types": {
+            "Derived": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "02f18d5e-a172-4de8-8319-09f2a56a8038",
+        "parentId": "1095ba3b-90fe-42c6-8fc4-5a814d6e7da9",
+        "type": "Attribute",
+        "position": {
+          "x": 96.83161895454941,
+          "y": -58.799973755653184
+        },
+        "data": {
+          "label": "קצרה",
+          "types": {
+            "Derived": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "446b058f-3e5d-473c-b12e-a3c2179bf1c0",
+        "type": "Label",
+        "position": {
+          "x": 3206.4741027517507,
+          "y": 583.6001982471674
+        },
+        "data": {
+          "label": "הנחה - שעת המראה ייחודית (מסלול יחיד בשדה\"ת)",
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 361,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "384ca562-7c00-4f01-b681-34a929ed75d5",
+        "type": "Relationship",
+        "position": {
+          "x": 1985.1961440682448,
+          "y": 218.12148053548552
+        },
+        "data": {
+          "label": "מבצע הזמנה",
+          "sourceEntityDetails": {
+            "id": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+            "minCardinality": "Mandatory",
+            "maxCardinality": "One"
+          },
+          "targetEntityDetails": {
+            "id": "6828e975-b7a8-467f-bb79-83c0037004e3",
+            "minCardinality": "Mandatory",
+            "maxCardinality": "Many"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "ce5975ea-a75a-4495-b5ba-32148f6dca8d",
+        "type": "Label",
+        "position": {
+          "x": 3394.6919916744723,
+          "y": 627.5005990873864
+        },
+        "data": {
+          "label": "להזמנה יש לקוח אחד",
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 161,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "3cbf873a-c7a5-4ae1-b954-6e5d53a9be27",
+        "type": "Relationship",
+        "position": {
+          "x": 2387.0200562950067,
+          "y": 476.4184934894339
+        },
+        "data": {
+          "label": "משוייכת",
+          "sourceEntityDetails": {
+            "id": "6828e975-b7a8-467f-bb79-83c0037004e3",
+            "minCardinality": "Mandatory",
+            "maxCardinality": "Many"
+          },
+          "targetEntityDetails": {
+            "id": "423a0aa5-8269-4549-9863-25281540ba55",
+            "minCardinality": "Mandatory",
+            "maxCardinality": "One"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false
+      },
+      {
+        "id": "73945cd9-62b4-49c4-9e76-a79e4ce763d2",
+        "type": "Relationship",
+        "position": {
+          "x": 2448.2934763245134,
+          "y": 26.35931912206214
+        },
+        "data": {
+          "label": "שייך ל",
+          "sourceEntityDetails": {
+            "id": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+            "minCardinality": "Mandatory",
+            "maxCardinality": "Many"
+          },
+          "targetEntityDetails": {
+            "id": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+            "minCardinality": "Mandatory",
+            "maxCardinality": "One"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "79d2d9bb-d1db-4b86-98a9-198a07aca43a",
+        "type": "Relationship",
+        "position": {
+          "x": 2226.518499494196,
+          "y": 238.9085465980186
+        },
+        "data": {
+          "label": "מכילה",
+          "sourceEntityDetails": {
+            "id": "8ab99ee2-389c-4b38-aff8-5f846c39f382"
+          },
+          "targetEntityDetails": {
+            "id": "6828e975-b7a8-467f-bb79-83c0037004e3"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "7adef2af-987b-47cd-88bc-9357bdb15188",
+        "type": "Entity",
+        "position": {
+          "x": 3313.8418365649636,
+          "y": 187.1685030487743
+        },
+        "data": {
+          "label": "מנהל",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "fc115cae-f9b5-4f0d-841c-8b13deaf6a76",
+        "parentId": "7adef2af-987b-47cd-88bc-9357bdb15188",
+        "type": "Attribute",
+        "position": {
+          "x": 13.010887798311614,
+          "y": 62.28284312115119
+        },
+        "data": {
+          "label": "סיסמא",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "f7d672d3-46eb-49b0-920e-9ddaa66ddb87",
+        "type": "Relationship",
+        "position": {
+          "x": 3474.2822179774253,
+          "y": 146.72816449463778
+        },
+        "data": {
+          "label": "ISA",
+          "sourceEntityDetails": {
+            "id": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea"
+          },
+          "targetEntityDetails": {
+            "id": "7adef2af-987b-47cd-88bc-9357bdb15188"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "17fc0eef-64f9-4dd0-8f5b-bfc8dde73017",
+        "type": "Relationship",
+        "position": {
+          "x": 3099.7850733828946,
+          "y": 367.015992927834
+        },
+        "data": {
+          "label": "עורך",
+          "sourceEntityDetails": {
+            "id": "423a0aa5-8269-4549-9863-25281540ba55",
+            "minCardinality": "Mandatory",
+            "maxCardinality": "Many"
+          },
+          "targetEntityDetails": {
+            "id": "7adef2af-987b-47cd-88bc-9357bdb15188",
+            "minCardinality": "Mandatory",
+            "maxCardinality": "Many"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "aad61c3a-9fa8-45f3-99e1-13eb7959e8f6",
+        "type": "Label",
+        "position": {
+          "x": 3242.598110002283,
+          "y": 667.1853322062544
+        },
+        "data": {
+          "label": "כל טיסה יכולה לשנות סטטוס ע\"י כמה מנהלים",
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 319,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "2a6b85b6-8769-422c-a63b-a487606492bf",
+        "type": "Label",
+        "position": {
+          "x": 3118.386354419968,
+          "y": 704.8784650556885
+        },
+        "data": {
+          "label": "הזמנה יכולה לכלול מספר מקומות ישיבה ללא פרטים שנשמרים",
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 428,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "67a553ec-d330-4af5-8e8d-16da0870b077",
+        "type": "Entity",
+        "position": {
+          "x": 3453.8589216246273,
+          "y": 243.26053560718316
+        },
+        "data": {
+          "label": "טייסים",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "e975b9ec-b9dc-418f-9bdd-8c68e8ee0979",
+        "parentId": "67a553ec-d330-4af5-8e8d-16da0870b077",
+        "type": "Attribute",
+        "position": {
+          "x": -13.010887798311614,
+          "y": 69.71763614875792
+        },
+        "data": {
+          "label": "הכשרה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "02507359-3f01-4b4d-9271-3ce1ab219155",
+        "type": "Entity",
+        "position": {
+          "x": 3586.3497357076612,
+          "y": 303.58196336945997
+        },
+        "data": {
+          "label": "דיילים",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "23c074d1-10d4-4068-b757-77b9bac44e50",
+        "parentId": "02507359-3f01-4b4d-9271-3ce1ab219155",
+        "type": "Attribute",
+        "position": {
+          "x": 33.78102400843045,
+          "y": 71.5763344056596
+        },
+        "data": {
+          "label": "הכשרה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "1fc57523-d77e-439d-bcc2-bc2bf839a7ed",
+        "type": "Relationship",
+        "position": {
+          "x": 3472.7660060974354,
+          "y": 147.78792756787524
+        },
+        "data": {
+          "label": "Relationship",
+          "sourceEntityDetails": {
+            "id": "67a553ec-d330-4af5-8e8d-16da0870b077"
+          },
+          "targetEntityDetails": {
+            "id": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "b90d6446-999c-4577-ad7c-06fd84353ca3",
+        "type": "Relationship",
+        "position": {
+          "x": 3472.734845725108,
+          "y": 147.26952745247095
+        },
+        "data": {
+          "label": "ISA",
+          "sourceEntityDetails": {
+            "id": "02507359-3f01-4b4d-9271-3ce1ab219155"
+          },
+          "targetEntityDetails": {
+            "id": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "32fc7831-a1e0-4bea-b98b-81ccd4b21eee",
+        "type": "Relationship",
+        "position": {
+          "x": 3163.8231806769854,
+          "y": 416.2388333407933
+        },
+        "data": {
+          "label": "עובדים ב",
+          "sourceEntityDetails": {
+            "id": "67a553ec-d330-4af5-8e8d-16da0870b077"
+          },
+          "targetEntityDetails": {
+            "id": "423a0aa5-8269-4549-9863-25281540ba55"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "7c1b70e1-e64f-4e36-8dad-b9f1d4b6dfaa",
+        "type": "Relationship",
+        "position": {
+          "x": 3220.8932661532062,
+          "y": 476.5214368269899
+        },
+        "data": {
+          "label": "עובדים ב",
+          "sourceEntityDetails": {
+            "id": "423a0aa5-8269-4549-9863-25281540ba55"
+          },
+          "targetEntityDetails": {
+            "id": "02507359-3f01-4b4d-9271-3ce1ab219155"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "fb1dfe79-de35-4d4b-8c9d-4cd8a9d1562e",
+        "parentId": "79d2d9bb-d1db-4b86-98a9-198a07aca43a",
+        "type": "Attribute",
+        "position": {
+          "x": 74.34297214921799,
+          "y": 57.517194930849
+        },
+        "data": {
+          "label": "מחיר מושב",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "29ab6db7-2a3f-4826-855a-5134c997ba7e",
+        "type": "Entity",
+        "position": {
+          "x": 2153.8796860770717,
+          "y": 542.2096613947272
+        },
+        "data": {
+          "label": "היסטורית הזמנות",
+          "type": "Weak",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "45251b92-2425-4639-bd10-bc997db06d8c",
+        "parentId": "29ab6db7-2a3f-4826-855a-5134c997ba7e",
+        "type": "Attribute",
+        "position": {
+          "x": -136.58359999507547,
+          "y": 52.33047594369418
+        },
+        "data": {
+          "label": "מועד",
+          "types": {
+            "Partially Unique": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "parentId": "29ab6db7-2a3f-4826-855a-5134c997ba7e",
+        "type": "Attribute",
+        "position": {
+          "x": 22.81120916377722,
+          "y": 77.89754493195198
+        },
+        "data": {
+          "label": "סטטוס",
+          "types": {
+            "Composite": true
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "970327c0-5207-48c1-a63d-6dd4cef0bc21",
+        "parentId": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "type": "Attribute",
+        "position": {
+          "x": 111.16851075760997,
+          "y": 38.49922531128152
+        },
+        "data": {
+          "label": "פעילה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "fc92210b-4cd5-4cc3-b4f8-1b5f0eba938e",
+        "parentId": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "type": "Attribute",
+        "position": {
+          "x": 50.04152341786539,
+          "y": 86.54207657720985
+        },
+        "data": {
+          "label": "בוצעה",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "8498a624-8e17-4f7c-92b4-01d5c10460ae",
+        "parentId": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "type": "Attribute",
+        "position": {
+          "x": -50.60156961464236,
+          "y": 89.90312911068236
+        },
+        "data": {
+          "label": "ביטול לקוח",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "c9f5c964-0760-43a0-9e7a-ac711964f85a",
+        "parentId": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "type": "Attribute",
+        "position": {
+          "x": -140.1381727778089,
+          "y": 67.33058670838125
+        },
+        "data": {
+          "label": "ביטול מערכת",
+          "types": [],
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "9321db03-9d02-4540-951e-24d3c8eecf72",
+        "type": "Relationship",
+        "position": {
+          "x": 2155.183912710785,
+          "y": 468.14093287518347
+        },
+        "data": {
+          "label": "מתועדת",
+          "sourceEntityDetails": {
+            "id": "6828e975-b7a8-467f-bb79-83c0037004e3"
+          },
+          "targetEntityDetails": {
+            "id": "29ab6db7-2a3f-4826-855a-5134c997ba7e"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "f78275de-4b7a-47b1-abf7-de70acc89edb",
+        "type": "Relationship",
+        "position": {
+          "x": 2596.430539955252,
+          "y": 285.57542014199794
+        },
+        "data": {
+          "label": "מבצע",
+          "sourceEntityDetails": {
+            "id": "1d3d5135-754a-4306-9ba1-cc597d5d433c"
+          },
+          "targetEntityDetails": {
+            "id": "423a0aa5-8269-4549-9863-25281540ba55"
+          },
+          "isSelected": false,
+          "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "463da24c-ba03-4e17-9a6f-aae971e38b68",
+        "type": "Label",
+        "position": {
+          "x": 3297.5312405138097,
+          "y": 544.3429721492182
+        },
+        "data": {
+          "label": "לנמק הוספנו מס טיסה יחודי לטיסה",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 248,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "cd0b2863-9f92-4910-966e-b88914363ecd",
+        "type": "Label",
+        "position": {
+          "x": 3320.0070227914803,
+          "y": 760.4562632806662
+        },
+        "data": {
+          "label": "ISA האם גדול קטן זה תכונה או ",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 224,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "27d30f7a-30c8-4338-bd2f-efcf70682e56",
+        "type": "Label",
+        "position": {
+          "x": 2528.7592259267994,
+          "y": -7.875105258025499
+        },
+        "data": {
+          "label": "(1:1)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 49,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "a4b46c0a-a9d2-40e2-b756-2c6336a9f881",
+        "type": "Label",
+        "position": {
+          "x": 2407.734342767266,
+          "y": 41.701286261186894
+        },
+        "data": {
+          "label": "(1:n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 51,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "c28aa982-1a28-44d0-a8ad-9bfaed891bcb",
+        "type": "Label",
+        "position": {
+          "x": 2246.9540808820525,
+          "y": 201.22574838861894
+        },
+        "data": {
+          "label": "(1,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 51,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "acfa5b63-1f86-48a9-817f-be2e4da9c3fe",
+        "type": "Label",
+        "position": {
+          "x": 2198.5029214927695,
+          "y": 297.3794773765846
+        },
+        "data": {
+          "label": "(0,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "04ee289a-ad98-483b-837a-73f42e9e8fa6",
+        "type": "Label",
+        "position": {
+          "x": 1933.0240410953302,
+          "y": 160.28969832806433
+        },
+        "data": {
+          "label": "(1:1)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 49,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "2ce89ed0-1fc8-456d-af76-333a6b342978",
+        "type": "Label",
+        "position": {
+          "x": 2110.8841206687744,
+          "y": 253.4545019141541
+        },
+        "data": {
+          "label": "(0,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "3478d965-a976-47ac-92a9-49981285bf5a",
+        "type": "Label",
+        "position": {
+          "x": 2301.6064767879466,
+          "y": 412.1098690573932
+        },
+        "data": {
+          "label": "(0,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "5880bd07-3ff3-48d0-9fa5-f7d982c54fd7",
+        "type": "Label",
+        "position": {
+          "x": 2487.3107342864782,
+          "y": 535.4605121879866
+        },
+        "data": {
+          "label": "(1,1)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 47,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "616870df-82fd-4744-a0c4-690c3f90d7cb",
+        "type": "Label",
+        "position": {
+          "x": 2647.548503222762,
+          "y": 190.83219127699394
+        },
+        "data": {
+          "label": "(1,1)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 47,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "277b1aa8-3bd3-4827-94f2-81c2af23d4a9",
+        "type": "Label",
+        "position": {
+          "x": 2599.368673952091,
+          "y": 394.79913477091503
+        },
+        "data": {
+          "label": "(0,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "9b8de409-9dba-46db-9b94-36571f2470b2",
+        "type": "Label",
+        "position": {
+          "x": 2999.621468572956,
+          "y": 398.52145699051584
+        },
+        "data": {
+          "label": "(1,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 51,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "9d9c3034-6406-4a87-9105-888fc1b9e92e",
+        "type": "Label",
+        "position": {
+          "x": 3011.2708254423624,
+          "y": 456.56737610846363
+        },
+        "data": {
+          "label": "(0,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "ae5bbe8b-686b-422b-a5a3-a51640de03d0",
+        "type": "Label",
+        "position": {
+          "x": 3014.094001308608,
+          "y": 500.3266020352634
+        },
+        "data": {
+          "label": "(0,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "ffea214c-d3c7-4263-b735-93d78f5b3516",
+        "type": "Label",
+        "position": {
+          "x": 3166.545498085846,
+          "y": 291.4115879331226
+        },
+        "data": {
+          "label": "(0,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "d331087b-0e0b-4812-a01a-fb942f4ba5f3",
+        "type": "Label",
+        "position": {
+          "x": 3244.1828344075875,
+          "y": 363.4025725223739
+        },
+        "data": {
+          "label": "(2,3)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "aac0066b-c449-4bda-8870-a3c4e8a228aa",
+        "type": "Label",
+        "position": {
+          "x": 3308.603437751459,
+          "y": 421.27767778039924
+        },
+        "data": {
+          "label": "(3,6)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 55,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "4227d2f3-1f33-4db6-9571-28e98764548f",
+        "parentId": "423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Attribute",
+        "position": {
+          "x": -155.07427792459976,
+          "y": 56.63186112938911
+        },
+        "data": {
+          "label": "מספר טיסה",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "23bc6711-98b3-40eb-ae67-3f03c46618f8",
+        "type": "Label",
+        "position": {
+          "x": 2201.940720166118,
+          "y": 437.4349177498517
+        },
+        "data": {
+          "label": "(1,1)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 47,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "2f9dfeb0-441c-4551-b04a-d4ee5081ddaf",
+        "type": "Label",
+        "position": {
+          "x": 2209.9146872660585,
+          "y": 505.14119930963824
+        },
+        "data": {
+          "label": "(1,n)",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 51,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "type": "Entity",
+        "position": {
+          "x": 0,
+          "y": 140
+        },
+        "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "data": {
+          "label": "לקוח רשום",
+          "isConnectable": false,
+          "type": "Regular",
+          "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false
+      },
+      {
+        "id": "b4ae63ae-153d-4dbd-ac2b-269cda270a94",
+        "type": "Entity",
+        "position": {
+          "x": -137.11448555613765,
+          "y": 137.25155763728583
+        },
+        "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "data": {
+          "label": "אורח",
+          "isConnectable": false,
+          "type": "Regular",
+          "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "15dfd788-514a-43c7-a020-62acb20cc91c",
+        "parentId": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "type": "Attribute",
+        "position": {
+          "x": -81.07904970006962,
+          "y": 77.77141712049604
+        },
+        "data": {
+          "label": "תאריך הרשמה",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "23411a04-24b4-4065-8a74-990a6f29d72f",
+        "parentId": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "type": "Attribute",
+        "position": {
+          "x": -34.3172613026245,
+          "y": 123.6416380908368
+        },
+        "data": {
+          "label": "מספר דרכון",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "12527dd4-75ff-4f87-a81a-1017d2356218",
+        "parentId": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "type": "Attribute",
+        "position": {
+          "x": 121.49065417628549,
+          "y": 97.56970387635505
+        },
+        "data": {
+          "label": "סיסמא",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "8f72a13f-6b50-4087-996c-877f3230254d",
+        "parentId": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "type": "Attribute",
+        "position": {
+          "x": 46.761788397445116,
+          "y": 119.59551100937222
+        },
+        "data": {
+          "label": "תאריך לידה",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "01f035c8-c3ca-4ae2-856a-9f2649b8ea84",
+        "type": "Attribute",
+        "source": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "target": "04ea4fc6-8474-4b84-858f-64c734c68a3a"
+      },
+      {
+        "id": "c147d7a2-8ff5-40ac-9463-28966abaa68e",
+        "type": "Attribute",
+        "source": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "target": "d20d8a6c-23d4-4eeb-9019-a32279854ede"
+      },
+      {
+        "id": "061116c6-2fdf-4541-a086-da45b80637fd",
+        "type": "Attribute",
+        "source": "d20d8a6c-23d4-4eeb-9019-a32279854ede",
+        "target": "30888f17-6736-41b6-9156-0946aaf52ab2"
+      },
+      {
+        "id": "85ac04f4-3163-4980-afcf-cce5e7858a56",
+        "type": "Attribute",
+        "source": "d20d8a6c-23d4-4eeb-9019-a32279854ede",
+        "target": "b47fabfa-1df3-436d-bf8a-d6e5fa32f70f"
+      },
+      {
+        "id": "f53ddc8e-a14b-456f-a373-1ffe45bc3e90",
+        "type": "Attribute",
+        "source": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "target": "d86e76e2-817b-4bb3-90dc-038a80f78c64"
+      },
+      {
+        "id": "71ab2b78-c60e-433d-8c4b-8c217c5fbbdc",
+        "type": "Attribute",
+        "source": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "target": "02774b10-65bc-4f6d-9e67-2836b9478c81"
+      },
+      {
+        "id": "b9b4bb79-5515-4071-be83-c0a098c9ccac",
+        "type": "Attribute",
+        "source": "02774b10-65bc-4f6d-9e67-2836b9478c81",
+        "target": "d33b288d-cec3-4677-ad5a-2ff26057ea58"
+      },
+      {
+        "id": "eebdee7a-f214-4329-ad23-84ef14d8cf6e",
+        "type": "Attribute",
+        "source": "02774b10-65bc-4f6d-9e67-2836b9478c81",
+        "target": "a7e44489-50ba-402d-a65e-d1bf20744e32"
+      },
+      {
+        "id": "517225c3-e4a8-4882-a6f3-c0df40c4c8c0",
+        "type": "Attribute",
+        "source": "02774b10-65bc-4f6d-9e67-2836b9478c81",
+        "target": "3e13917b-5168-431b-89d0-674eb627ecc1"
+      },
+      {
+        "id": "bebdd173-c2e7-43f4-8a01-ce46a37fd847",
+        "type": "Attribute",
+        "source": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "target": "60f6801b-bc77-4309-8de2-382e442a7d8f"
+      },
+      {
+        "id": "f6b4b142-080e-4434-8183-c7190ae7d6c6",
+        "type": "Attribute",
+        "source": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "target": "d6643346-638c-48de-a598-ded66292fc38"
+      },
+      {
+        "id": "0b1a5eec-541e-4677-a823-1d297ecdfd56",
+        "type": "Attribute",
+        "source": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "target": "736b4be0-b716-4468-a762-42172ff95362"
+      },
+      {
+        "id": "487b89ca-ff59-497a-a485-bfe8933969cd",
+        "type": "Attribute",
+        "source": "736b4be0-b716-4468-a762-42172ff95362",
+        "target": "ca72811c-aa61-499a-9e37-1c6795b90e63"
+      },
+      {
+        "id": "2255c95e-4bed-4713-a514-b7ea4c6ddd15",
+        "type": "Attribute",
+        "source": "736b4be0-b716-4468-a762-42172ff95362",
+        "target": "cb0aed71-e2f5-4015-a2c7-9c36085baa5a"
+      },
+      {
+        "id": "249aa8fc-0084-4788-a90d-bb62c7fe5794",
+        "type": "Attribute",
+        "source": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "target": "cb66868b-3c4b-4bf4-9e64-45d651d5c029"
+      },
+      {
+        "id": "39e2b209-edc1-4e73-91e9-b0ca09947a14",
+        "type": "Attribute",
+        "source": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "target": "a7c047ee-0820-4522-9dd1-5a5614ca3cef"
+      },
+      {
+        "id": "d4b6dbff-10da-4f6e-b345-29bf196eec28",
+        "type": "Attribute",
+        "source": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "target": "6ee83491-e25e-4172-abe3-23e9c67eea1a"
+      },
+      {
+        "id": "87180214-f438-41a8-9490-db5423def2ed",
+        "type": "Attribute",
+        "source": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "target": "f7ab3e90-fe26-4f57-ac0f-e8f85cb74313"
+      },
+      {
+        "id": "8e84cdc0-646c-4f44-9a48-2db012ace473",
+        "type": "Attribute",
+        "source": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "target": "8d078d0c-edf2-4c77-89e0-ea797d381f61"
+      },
+      {
+        "id": "7a5915d1-71ec-40dc-b1fc-4f01a782f9e8",
+        "type": "Attribute",
+        "source": "8d078d0c-edf2-4c77-89e0-ea797d381f61",
+        "target": "db6a9c25-6a5e-433b-8473-a897bcdd5032"
+      },
+      {
+        "id": "22717dd2-4386-41d6-ae28-fa5bb563eef7",
+        "type": "Attribute",
+        "source": "8d078d0c-edf2-4c77-89e0-ea797d381f61",
+        "target": "698caf67-11c1-4830-bcd3-b9adc69fc014"
+      },
+      {
+        "id": "d13fd44a-3309-46bc-a90d-e176c6826934",
+        "type": "Attribute",
+        "source": "8d078d0c-edf2-4c77-89e0-ea797d381f61",
+        "target": "2f6a1166-47d9-45a5-a7f6-36f31cc54898"
+      },
+      {
+        "id": "44804901-ed38-4cfc-b029-042c0d47aed1",
+        "type": "Attribute",
+        "source": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "target": "55cc78c5-b4c1-4c54-950f-8d34e8fa3a50"
+      },
+      {
+        "id": "fb0aa48a-8cf3-4c9d-bbcf-c7eeab7b8a10",
+        "type": "Attribute",
+        "source": "55cc78c5-b4c1-4c54-950f-8d34e8fa3a50",
+        "target": "7e1b0859-99ad-40f5-9eea-d8ba54ef8032"
+      },
+      {
+        "id": "0a003167-074e-43e9-81b0-eb54055c7cda",
+        "type": "Attribute",
+        "source": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "target": "a630b656-f457-4ef0-9dc9-2c4f808dabcc"
+      },
+      {
+        "id": "c378d883-4271-4373-b59a-b7f05253869a",
+        "type": "Attribute",
+        "source": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "target": "4c109e06-acaf-4355-9ea8-35c16a160b37"
+      },
+      {
+        "id": "22b7c8a4-8c2a-40f4-8c10-6afb683f565f",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "bf37f4de-a806-4459-bd90-9aeda35c5638"
+      },
+      {
+        "id": "6f7c48dd-2d21-4693-b5b9-3da681af85c7",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "c499e59f-732d-4971-a2ee-d08e78a1ab30"
+      },
+      {
+        "id": "65f69ab5-8986-414d-9f38-30854538b9c4",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "ce3f1f31-36cb-4b94-97b2-cb14f0a321e9"
+      },
+      {
+        "id": "2615984c-ba8a-40ef-9a6d-9bbf044456f6",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "1569e698-9266-4c02-a7b9-6bd95ef97fed"
+      },
+      {
+        "id": "a10063b7-b450-442c-be2c-d74a03e157a4",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "1095ba3b-90fe-42c6-8fc4-5a814d6e7da9"
+      },
+      {
+        "id": "58be5c86-6965-4034-9baa-271a3434a3ed",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "054f8bef-dbb9-42fd-be7f-00c56d96a5af"
+      },
+      {
+        "id": "e284a4ff-ebcb-4785-9a40-64a9ab76c38c",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "1f9e56b6-17b8-4b17-b753-8f889bde0824"
+      },
+      {
+        "id": "f943bcd4-9fbd-4a48-b10a-9704ebab8dcd",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "8a665d59-24d8-4c54-8b13-947cf4874561"
+      },
+      {
+        "id": "6de80c18-1cc6-4f28-a19a-db272bd0e891",
+        "type": "Attribute",
+        "source": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "target": "15782780-c05a-4cf8-aef6-37aa4a186119"
+      },
+      {
+        "id": "d74c477f-283c-4582-8c23-a35d55221bef",
+        "type": "Attribute",
+        "source": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "target": "2c493c25-b8e2-48f4-990f-ba88065580dc"
+      },
+      {
+        "id": "c6738148-c304-4369-bb71-4f2bb01ff4ad",
+        "type": "Attribute",
+        "source": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "target": "26177f57-006f-44c6-bd2b-dc47dbee684f"
+      },
+      {
+        "id": "f1eddb2f-2284-4341-bef5-4155b394eff5",
+        "type": "Attribute",
+        "source": "8a665d59-24d8-4c54-8b13-947cf4874561",
+        "target": "7dac6ded-78a6-45ab-8f69-2d83f6c4aa98"
+      },
+      {
+        "id": "80cac2bc-c985-4923-8648-4fa342102277",
+        "type": "Attribute",
+        "source": "6828e975-b7a8-467f-bb79-83c0037004e3",
+        "target": "e0d4fbc9-4a6c-4c5a-a181-99d803f2e211"
+      },
+      {
+        "id": "3618b5b4-045b-480a-abb2-de60a1204b83",
+        "type": "Attribute",
+        "source": "1095ba3b-90fe-42c6-8fc4-5a814d6e7da9",
+        "target": "8b4d687e-ab25-4fda-870f-347540edb2a5"
+      },
+      {
+        "id": "64361a42-0275-4569-8273-ce30bcaf000a",
+        "type": "Attribute",
+        "source": "1095ba3b-90fe-42c6-8fc4-5a814d6e7da9",
+        "target": "02f18d5e-a172-4de8-8319-09f2a56a8038"
+      },
+      {
+        "id": "384ca562-7c00-4f01-b681-34a929ed75d5->72b1955e-e45f-43bc-9004-3535628c0fd2;72b1955e-e45f-43bc-9004-3535628c0fd2->6828e975-b7a8-467f-bb79-83c0037004e3",
+        "type": "Relationship",
+        "source": "384ca562-7c00-4f01-b681-34a929ed75d5",
+        "target": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "data": {
+          "id": "384ca562-7c00-4f01-b681-34a929ed75d5->72b1955e-e45f-43bc-9004-3535628c0fd2",
+          "minCardinality": "Mandatory",
+          "maxCardinality": "Many"
+        }
+      },
+      {
+        "id": "384ca562-7c00-4f01-b681-34a929ed75d5->6828e975-b7a8-467f-bb79-83c0037004e3;72b1955e-e45f-43bc-9004-3535628c0fd2->6828e975-b7a8-467f-bb79-83c0037004e3",
+        "type": "Relationship",
+        "source": "384ca562-7c00-4f01-b681-34a929ed75d5",
+        "target": "6828e975-b7a8-467f-bb79-83c0037004e3",
+        "data": {
+          "id": "384ca562-7c00-4f01-b681-34a929ed75d5->6828e975-b7a8-467f-bb79-83c0037004e3",
+          "minCardinality": "Mandatory",
+          "maxCardinality": "One"
+        }
+      },
+      {
+        "id": "3cbf873a-c7a5-4ae1-b954-6e5d53a9be27->6828e975-b7a8-467f-bb79-83c0037004e3;6828e975-b7a8-467f-bb79-83c0037004e3->423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Relationship",
+        "source": "3cbf873a-c7a5-4ae1-b954-6e5d53a9be27",
+        "target": "6828e975-b7a8-467f-bb79-83c0037004e3",
+        "data": {
+          "id": "3cbf873a-c7a5-4ae1-b954-6e5d53a9be27->6828e975-b7a8-467f-bb79-83c0037004e3",
+          "minCardinality": "Mandatory",
+          "maxCardinality": "One"
+        }
+      },
+      {
+        "id": "3cbf873a-c7a5-4ae1-b954-6e5d53a9be27->423a0aa5-8269-4549-9863-25281540ba55;6828e975-b7a8-467f-bb79-83c0037004e3->423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Relationship",
+        "source": "3cbf873a-c7a5-4ae1-b954-6e5d53a9be27",
+        "target": "423a0aa5-8269-4549-9863-25281540ba55",
+        "data": {
+          "id": "3cbf873a-c7a5-4ae1-b954-6e5d53a9be27->423a0aa5-8269-4549-9863-25281540ba55",
+          "minCardinality": "Mandatory",
+          "maxCardinality": "Many"
+        }
+      },
+      {
+        "id": "73945cd9-62b4-49c4-9e76-a79e4ce763d2->1d3d5135-754a-4306-9ba1-cc597d5d433c;1d3d5135-754a-4306-9ba1-cc597d5d433c->8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "type": "Relationship",
+        "source": "73945cd9-62b4-49c4-9e76-a79e4ce763d2",
+        "target": "1d3d5135-754a-4306-9ba1-cc597d5d433c",
+        "data": {
+          "id": "73945cd9-62b4-49c4-9e76-a79e4ce763d2->1d3d5135-754a-4306-9ba1-cc597d5d433c",
+          "minCardinality": "Mandatory",
+          "maxCardinality": "Many"
+        }
+      },
+      {
+        "id": "73945cd9-62b4-49c4-9e76-a79e4ce763d2->8ab99ee2-389c-4b38-aff8-5f846c39f382;1d3d5135-754a-4306-9ba1-cc597d5d433c->8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "type": "Relationship",
+        "source": "73945cd9-62b4-49c4-9e76-a79e4ce763d2",
+        "target": "8ab99ee2-389c-4b38-aff8-5f846c39f382",
+        "data": {
+          "id": "73945cd9-62b4-49c4-9e76-a79e4ce763d2->8ab99ee2-389c-4b38-aff8-5f846c39f382",
+          "minCardinality": "Mandatory",
+          "maxCardinality": "One"
+        }
+      },
+      {
+        "id": "79d2d9bb-d1db-4b86-98a9-198a07aca43a->8ab99ee2-389c-4b38-aff8-5f846c39f382;8ab99ee2-389c-4b38-aff8-5f846c39f382->6828e975-b7a8-467f-bb79-83c0037004e3",
+        "type": "Relationship",
+        "source": "79d2d9bb-d1db-4b86-98a9-198a07aca43a",
+        "target": "8ab99ee2-389c-4b38-aff8-5f846c39f382"
+      },
+      {
+        "id": "79d2d9bb-d1db-4b86-98a9-198a07aca43a->6828e975-b7a8-467f-bb79-83c0037004e3;8ab99ee2-389c-4b38-aff8-5f846c39f382->6828e975-b7a8-467f-bb79-83c0037004e3",
+        "type": "Relationship",
+        "source": "79d2d9bb-d1db-4b86-98a9-198a07aca43a",
+        "target": "6828e975-b7a8-467f-bb79-83c0037004e3"
+      },
+      {
+        "id": "97ebbb81-b70b-411f-bbde-f888175920b9",
+        "type": "Attribute",
+        "source": "7adef2af-987b-47cd-88bc-9357bdb15188",
+        "target": "fc115cae-f9b5-4f0d-841c-8b13deaf6a76"
+      },
+      {
+        "id": "f7d672d3-46eb-49b0-920e-9ddaa66ddb87->38303af8-0b25-43d2-b5f1-7c43fe3d53ea;38303af8-0b25-43d2-b5f1-7c43fe3d53ea->7adef2af-987b-47cd-88bc-9357bdb15188",
+        "type": "Relationship",
+        "source": "f7d672d3-46eb-49b0-920e-9ddaa66ddb87",
+        "target": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea"
+      },
+      {
+        "id": "f7d672d3-46eb-49b0-920e-9ddaa66ddb87->7adef2af-987b-47cd-88bc-9357bdb15188;38303af8-0b25-43d2-b5f1-7c43fe3d53ea->7adef2af-987b-47cd-88bc-9357bdb15188",
+        "type": "Relationship",
+        "source": "f7d672d3-46eb-49b0-920e-9ddaa66ddb87",
+        "target": "7adef2af-987b-47cd-88bc-9357bdb15188"
+      },
+      {
+        "id": "17fc0eef-64f9-4dd0-8f5b-bfc8dde73017->423a0aa5-8269-4549-9863-25281540ba55;423a0aa5-8269-4549-9863-25281540ba55->7adef2af-987b-47cd-88bc-9357bdb15188",
+        "type": "Relationship",
+        "source": "17fc0eef-64f9-4dd0-8f5b-bfc8dde73017",
+        "target": "423a0aa5-8269-4549-9863-25281540ba55",
+        "data": {
+          "id": "17fc0eef-64f9-4dd0-8f5b-bfc8dde73017->423a0aa5-8269-4549-9863-25281540ba55",
+          "minCardinality": "Mandatory",
+          "maxCardinality": "Many"
+        }
+      },
+      {
+        "id": "17fc0eef-64f9-4dd0-8f5b-bfc8dde73017->7adef2af-987b-47cd-88bc-9357bdb15188;423a0aa5-8269-4549-9863-25281540ba55->7adef2af-987b-47cd-88bc-9357bdb15188",
+        "type": "Relationship",
+        "source": "17fc0eef-64f9-4dd0-8f5b-bfc8dde73017",
+        "target": "7adef2af-987b-47cd-88bc-9357bdb15188",
+        "data": {
+          "id": "17fc0eef-64f9-4dd0-8f5b-bfc8dde73017->7adef2af-987b-47cd-88bc-9357bdb15188",
+          "minCardinality": "Mandatory",
+          "maxCardinality": "Many"
+        }
+      },
+      {
+        "id": "5a3ff728-fa24-4b63-a3d5-67b7c618a1cb",
+        "type": "Attribute",
+        "source": "67a553ec-d330-4af5-8e8d-16da0870b077",
+        "target": "e975b9ec-b9dc-418f-9bdd-8c68e8ee0979"
+      },
+      {
+        "id": "aca69384-2806-4a6a-b808-c17fa1e45955",
+        "type": "Attribute",
+        "source": "02507359-3f01-4b4d-9271-3ce1ab219155",
+        "target": "23c074d1-10d4-4068-b757-77b9bac44e50"
+      },
+      {
+        "id": "1fc57523-d77e-439d-bcc2-bc2bf839a7ed->67a553ec-d330-4af5-8e8d-16da0870b077;67a553ec-d330-4af5-8e8d-16da0870b077->38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Relationship",
+        "source": "1fc57523-d77e-439d-bcc2-bc2bf839a7ed",
+        "target": "67a553ec-d330-4af5-8e8d-16da0870b077"
+      },
+      {
+        "id": "1fc57523-d77e-439d-bcc2-bc2bf839a7ed->38303af8-0b25-43d2-b5f1-7c43fe3d53ea;67a553ec-d330-4af5-8e8d-16da0870b077->38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Relationship",
+        "source": "1fc57523-d77e-439d-bcc2-bc2bf839a7ed",
+        "target": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea"
+      },
+      {
+        "id": "b90d6446-999c-4577-ad7c-06fd84353ca3->02507359-3f01-4b4d-9271-3ce1ab219155;02507359-3f01-4b4d-9271-3ce1ab219155->38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Relationship",
+        "source": "b90d6446-999c-4577-ad7c-06fd84353ca3",
+        "target": "02507359-3f01-4b4d-9271-3ce1ab219155"
+      },
+      {
+        "id": "b90d6446-999c-4577-ad7c-06fd84353ca3->38303af8-0b25-43d2-b5f1-7c43fe3d53ea;02507359-3f01-4b4d-9271-3ce1ab219155->38303af8-0b25-43d2-b5f1-7c43fe3d53ea",
+        "type": "Relationship",
+        "source": "b90d6446-999c-4577-ad7c-06fd84353ca3",
+        "target": "38303af8-0b25-43d2-b5f1-7c43fe3d53ea"
+      },
+      {
+        "id": "32fc7831-a1e0-4bea-b98b-81ccd4b21eee->67a553ec-d330-4af5-8e8d-16da0870b077;67a553ec-d330-4af5-8e8d-16da0870b077->423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Relationship",
+        "source": "32fc7831-a1e0-4bea-b98b-81ccd4b21eee",
+        "target": "67a553ec-d330-4af5-8e8d-16da0870b077"
+      },
+      {
+        "id": "32fc7831-a1e0-4bea-b98b-81ccd4b21eee->423a0aa5-8269-4549-9863-25281540ba55;67a553ec-d330-4af5-8e8d-16da0870b077->423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Relationship",
+        "source": "32fc7831-a1e0-4bea-b98b-81ccd4b21eee",
+        "target": "423a0aa5-8269-4549-9863-25281540ba55"
+      },
+      {
+        "id": "7c1b70e1-e64f-4e36-8dad-b9f1d4b6dfaa->423a0aa5-8269-4549-9863-25281540ba55;423a0aa5-8269-4549-9863-25281540ba55->02507359-3f01-4b4d-9271-3ce1ab219155",
+        "type": "Relationship",
+        "source": "7c1b70e1-e64f-4e36-8dad-b9f1d4b6dfaa",
+        "target": "423a0aa5-8269-4549-9863-25281540ba55"
+      },
+      {
+        "id": "7c1b70e1-e64f-4e36-8dad-b9f1d4b6dfaa->02507359-3f01-4b4d-9271-3ce1ab219155;423a0aa5-8269-4549-9863-25281540ba55->02507359-3f01-4b4d-9271-3ce1ab219155",
+        "type": "Relationship",
+        "source": "7c1b70e1-e64f-4e36-8dad-b9f1d4b6dfaa",
+        "target": "02507359-3f01-4b4d-9271-3ce1ab219155"
+      },
+      {
+        "id": "a65511ac-a40a-43b9-bc92-c258d69448b7",
+        "type": "Attribute",
+        "source": "79d2d9bb-d1db-4b86-98a9-198a07aca43a",
+        "target": "fb1dfe79-de35-4d4b-8c9d-4cd8a9d1562e"
+      },
+      {
+        "id": "96dff148-ab4e-458c-bb66-feb44b93e9e4",
+        "type": "Attribute",
+        "source": "29ab6db7-2a3f-4826-855a-5134c997ba7e",
+        "target": "45251b92-2425-4639-bd10-bc997db06d8c"
+      },
+      {
+        "id": "b8d65563-c34e-4326-9004-0e31c767cbd5",
+        "type": "Attribute",
+        "source": "29ab6db7-2a3f-4826-855a-5134c997ba7e",
+        "target": "466ebbf7-99e3-47b3-af58-a4b458cd102e"
+      },
+      {
+        "id": "8c020e68-c6a6-47ec-840c-aa891d9e644d",
+        "type": "Attribute",
+        "source": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "target": "970327c0-5207-48c1-a63d-6dd4cef0bc21"
+      },
+      {
+        "id": "2f8acc56-74ac-4ccd-a353-95e91ea2b124",
+        "type": "Attribute",
+        "source": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "target": "fc92210b-4cd5-4cc3-b4f8-1b5f0eba938e"
+      },
+      {
+        "id": "36157853-49c1-413d-9a43-6f91d12eb855",
+        "type": "Attribute",
+        "source": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "target": "8498a624-8e17-4f7c-92b4-01d5c10460ae"
+      },
+      {
+        "id": "0f6b6513-3cc5-416c-b377-2b0be45d74ec",
+        "type": "Attribute",
+        "source": "466ebbf7-99e3-47b3-af58-a4b458cd102e",
+        "target": "c9f5c964-0760-43a0-9e7a-ac711964f85a"
+      },
+      {
+        "id": "9321db03-9d02-4540-951e-24d3c8eecf72->6828e975-b7a8-467f-bb79-83c0037004e3;6828e975-b7a8-467f-bb79-83c0037004e3->29ab6db7-2a3f-4826-855a-5134c997ba7e",
+        "type": "Relationship",
+        "source": "9321db03-9d02-4540-951e-24d3c8eecf72",
+        "target": "6828e975-b7a8-467f-bb79-83c0037004e3"
+      },
+      {
+        "id": "9321db03-9d02-4540-951e-24d3c8eecf72->29ab6db7-2a3f-4826-855a-5134c997ba7e;6828e975-b7a8-467f-bb79-83c0037004e3->29ab6db7-2a3f-4826-855a-5134c997ba7e",
+        "type": "Relationship",
+        "source": "9321db03-9d02-4540-951e-24d3c8eecf72",
+        "target": "29ab6db7-2a3f-4826-855a-5134c997ba7e"
+      },
+      {
+        "id": "f78275de-4b7a-47b1-abf7-de70acc89edb->1d3d5135-754a-4306-9ba1-cc597d5d433c;1d3d5135-754a-4306-9ba1-cc597d5d433c->423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Relationship",
+        "source": "f78275de-4b7a-47b1-abf7-de70acc89edb",
+        "target": "1d3d5135-754a-4306-9ba1-cc597d5d433c"
+      },
+      {
+        "id": "f78275de-4b7a-47b1-abf7-de70acc89edb->423a0aa5-8269-4549-9863-25281540ba55;1d3d5135-754a-4306-9ba1-cc597d5d433c->423a0aa5-8269-4549-9863-25281540ba55",
+        "type": "Relationship",
+        "source": "f78275de-4b7a-47b1-abf7-de70acc89edb",
+        "target": "423a0aa5-8269-4549-9863-25281540ba55"
+      },
+      {
+        "id": "d2607608-83ec-4b74-b320-a8e3cd4a534b",
+        "type": "Attribute",
+        "source": "423a0aa5-8269-4549-9863-25281540ba55",
+        "target": "4227d2f3-1f33-4db6-9571-28e98764548f"
+      },
+      {
+        "id": "72b1955e-e45f-43bc-9004-3535628c0fd2->221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "type": "Supertype",
+        "source": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "target": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "data": {
+          "label": "Subtype Entity",
+          "isConnectable": false,
+          "type": "Regular",
+          "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+          "isSelected": true,
+          "totalSpecialization": true
+        },
+        "selected": false
+      },
+      {
+        "id": "72b1955e-e45f-43bc-9004-3535628c0fd2->b4ae63ae-153d-4dbd-ac2b-269cda270a94",
+        "type": "Supertype",
+        "source": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+        "target": "b4ae63ae-153d-4dbd-ac2b-269cda270a94",
+        "data": {
+          "label": "Subtype Entity",
+          "isConnectable": false,
+          "type": "Regular",
+          "parentId": "72b1955e-e45f-43bc-9004-3535628c0fd2",
+          "isSelected": false,
+          "totalSpecialization": true
+        }
+      },
+      {
+        "id": "94a281a2-1cd0-407d-9a20-3765ab4a49aa",
+        "type": "Attribute",
+        "source": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "target": "15dfd788-514a-43c7-a020-62acb20cc91c"
+      },
+      {
+        "id": "c1f51bbb-4383-4b8a-8151-d48da572dbb6",
+        "type": "Attribute",
+        "source": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "target": "23411a04-24b4-4065-8a74-990a6f29d72f"
+      },
+      {
+        "id": "7e8ef129-105b-4317-9297-e9e6fec1ec61",
+        "type": "Attribute",
+        "source": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "target": "12527dd4-75ff-4f87-a81a-1017d2356218"
+      },
+      {
+        "id": "b8de4734-b8b5-4f82-b6ea-dff99e100cc3",
+        "type": "Attribute",
+        "source": "221d82b2-9126-4c25-85f8-1cde8354cc7a",
+        "target": "8f72a13f-6b50-4087-996c-877f3230254d"
+      }
+    ],
+    "viewport": {
+      "x": -1057.527358075229,
+      "y": 118.12822721912107,
+      "zoom": 0.7276848978651671
+    }
+  },
+  "name": "PROJECT TAUFLY",
+  "folder": {
+    "name": "Diagrams",
+    "folderType": 1,
+    "depth": 0,
+    "id": 139772
+  },
+  "id": 179022,
+  "updatedAtTimestamp": 1765112012
+}

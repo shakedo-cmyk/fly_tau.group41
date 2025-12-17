@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flights Board</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Flights Board</h2>
+
+<table>
+    <tr>
+        <th>Flight ID</th>
+        <th>Departure Date</th>
+        <th>Origin</th>
+        <th>Destination</th>
+    </tr>
+
+    {% for flight in flights_data %}
+    <tr>
+        <td>{{ flight['flight_id'] }}</td>
+        <td>{{ flight['departure_date'] }}</td>
+        <td>{{ flight['origin_airport'] }}</td>
+        <td>{{ flight['destination_airport'] }}</td>
+    </tr>
+    {% endfor %}
+    <td><a href="/paying_page">to order </a></td>
+</table>
+<a href="/">return to homepage </a>
+</body>
+</html>

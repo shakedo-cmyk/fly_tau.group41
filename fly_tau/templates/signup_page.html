@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/signup_page" method="post">
+    <table>
+        <tr><td colspan="2">signup_page</td> </tr>
+        <tr>
+            <td>First Name:</td>
+            <td>
+                <input type="text" name="signup_first_name" value="{{ signup_first_name }}" pattern="[A-Za-z ]+" title="please enter only English letters" required placeholder="e.g. John">
+            </td>
+            <td> {% if error_message_name %} <p style="color: red;">{{ error_message_name }}</p> {% endif %} </td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td>
+                <input type="text" name="signup_last_name" value="{{ signup_last_name }}" pattern="[A-Za-z ]+" title="please enter only English letters" required placeholder="e.g. Smith">
+            </td>
+            <td> {% if error_message_name %} <p style="color: red;">{{ error_message_name }}</p> {% endif %} </td>
+        </tr>
+            <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="email_user" value="{{ email_user }}" required placeholder="name@example.com">
+            </td>
+        </tr>
+            <tr>
+            <td>Phone</td>
+            <td>
+                <input type="tel" name="phone_number_user" value="{{ phone_1 }}" pattern="[0-9]+" maxlength="10" title="Please enter up to 10 digits only" required placeholder="Primary Phone Number (Required)">
+                <input type="tel" name="phone_number_user" value="{{ phone_2 }}" pattern="[0-9]+" maxlength="10" title="Please enter up to 10 digits only" placeholder="Additional Phone (Optional)">
+                <input type="tel" name="phone_number_user" value="{{ phone_3 }}" pattern="[0-9]+" maxlength="10" title="Please enter up to 10 digits only" placeholder="Additional Phone (Optional)" >
+            </td>
+        </tr>
+        <tr>
+            <td>Passport Code</td>
+            <td>
+                <input type="text" name="passport_code" value="{{ passport_code }}" required placeholder="e.g. A12345678">
+            </td>
+        </tr>
+        <tr>
+            <td>Birth Date</td>
+            <td>
+                <input type="date" name="birth_date" value="{{ birth_date }}" required>
+            </td>
+            <td> {% if error_message_date %} <p style="color: red;">{{ error_message_date }}</p> {% endif %} </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="password" name="password_user" required>
+            </td>
+        </tr>
+        <tr>
+            <td> Confirm Password</td>
+            <td>
+                <input type="password" name="confirm_password_user" required>
+            </td>
+            <td> {% if error_message_pass %} <p style="color: red;">{{ error_message_pass }}</p> {% endif %} </td>
+        </tr>
+    </table>
+    <input type = "submit" value="submit">
+</form>
+<a href="/">return to homepage </a>
+</body>
+</html>
